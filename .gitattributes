@@ -1,0 +1,17 @@
+# 统一换行符，避免 Windows / Linux 协作时整文件 diff
+* text=auto
+
+*.php  text
+*.sql  text
+*.md   text
+*.css  text
+*.js   text
+
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.ico  binary
+*.ttf  binary
+*.woff binary
+*.woff2 binary
